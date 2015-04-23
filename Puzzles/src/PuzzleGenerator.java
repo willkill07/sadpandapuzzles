@@ -9,13 +9,15 @@ import gui.Window;
  * @author Sad Panda Software
  * @version 3.0
  */
+
+// Added a comment
 public class PuzzleGenerator {
   public static void main () {
     try {
       UIManager.setLookAndFeel (UIManager.getSystemLookAndFeelClassName ());
     } catch (Exception e) {}
     JFrame.setDefaultLookAndFeelDecorated (true);
-    
+
     Controller controller = new Controller();
     new Window (controller);
   }
